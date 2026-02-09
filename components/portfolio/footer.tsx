@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin, Mail } from "lucide-react";
 
 export function Footer() {
   return (
@@ -6,9 +6,13 @@ export function Footer() {
       <div className="mx-auto max-w-6xl">
         {/* Section label */}
         <div className="mb-16 flex items-center gap-4">
-          <span className="font-mono text-xs uppercase tracking-widest text-primary">04</span>
+          <span className="font-mono text-xs uppercase tracking-widest text-primary">
+            04
+          </span>
           <div className="h-px flex-1 bg-border" />
-          <span className="font-mono text-xs uppercase tracking-widest text-muted-foreground">Contact</span>
+          <span className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
+            Contact
+          </span>
         </div>
 
         <div className="grid gap-12 md:grid-cols-2">
@@ -17,7 +21,9 @@ export function Footer() {
               {"Let's work together"}
             </h2>
             <p className="mt-4 max-w-md text-base text-muted-foreground leading-relaxed">
-              {"If you'd like to discuss a project or just say hi, I'm always open to chat. Feel free to reach out through any of these channels."}
+              {
+                "If you'd like to discuss a project or just say hi, I'm always open to chat. Feel free to reach out through any of these channels."
+              }
             </p>
           </div>
 
@@ -31,7 +37,9 @@ export function Footer() {
               </div>
               <div>
                 <p className="text-sm font-semibold text-foreground">Email</p>
-                <p className="text-sm text-muted-foreground">mariogabrielrn@icloud.com</p>
+                <p className="text-sm text-muted-foreground">
+                  mariogabrielrn@icloud.com
+                </p>
               </div>
             </a>
 
@@ -60,7 +68,9 @@ export function Footer() {
                 <Linkedin className="h-5 w-5" />
               </div>
               <div>
-                <p className="text-sm font-semibold text-foreground">LinkedIn</p>
+                <p className="text-sm font-semibold text-foreground">
+                  LinkedIn
+                </p>
                 <p className="text-sm text-muted-foreground">Mario Ruby</p>
               </div>
             </a>
@@ -78,5 +88,5 @@ export function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

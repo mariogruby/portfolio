@@ -1,31 +1,62 @@
-import { ArrowUpRight } from "lucide-react"
+import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
-    title: "EasyPOS",
-    description: "Advanced POS system for restaurants with analytics and sales tracking.",
-    url: "https://easypostool.com",
-    tags: ["Next.js", "TypeScript", "PostgreSQL", "Stripe"],
+    title: "Rental Cars",
+    description:
+      "Full booking platform with payments, auth and calendar availability.",
+    url: "https://rental-carss-web.vercel.app/",
+    tags: [
+      "Typescript",
+      "Next.js",
+      "PostgreSQL",
+      "Stripe",
+      "Prisma",
+      "Tailwind",
+    ],
   },
   {
-    title: "Rental Cars",
-    description: "Full booking platform with payments, auth and calendar availability.",
-    url: "https://rental-carss-web.vercel.app/",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
+    title: "Easypos Tool",
+    description:
+      "Advanced POS system for restaurants with analytics and sales tracking.",
+    url: "https://easypostool.com",
+    tags: ["Typescript", "Next.js", "MongoDB", "Tailwind"],
   },
   {
     title: "E-commerce App",
-    description: "Full stack online store template built with Next.js and Stripe.",
+    description:
+      "Full stack online store template built with Next.js and Stripe.",
     url: "https://next-app-project-zeta.vercel.app/",
-    tags: ["Next.js", "Prisma", "Stripe", "Tailwind"],
+    tags: ["Typescript", "Next.js", "Strapi", "Stripe", "Tailwind"],
   },
   {
     title: "Omega Social Network",
-    description: "Social platform with posts, chat and profiles using MERN stack.",
+    description:
+      "Social platform with posts, chat and profiles using MERN stack.",
     url: "https://omega-social-network.vercel.app/",
-    tags: ["React", "Express", "MongoDB", "Socket.io"],
+    tags: [
+      "Javascript",
+      "React",
+      "Express",
+      "MongoDB",
+      "Socket.io",
+      "Material UI",
+    ],
   },
-]
+  {
+    title: "Convimillas App (Ironhack school project)",
+    description:
+      "A web application for managing household chores between couples. Final project for Ironhack, created with the MERN stack.",
+    url: "https://convimillas-app.netlify.app/",
+    tags: ["React", "Express", "Node.js", "MongoDB", "Javascript"],
+  },
+  {
+    title: "Robertnault Game (Ironhack school project)",
+    description: "First game created in my early days as a web developer",
+    url: "https://frankgimeno3.github.io/Robernauts/",
+    tags: ["Javascript", "DOM", "HTML", "CSS"],
+  },
+];
 
 export function Projects() {
   return (
@@ -33,16 +64,21 @@ export function Projects() {
       <div className="mx-auto max-w-6xl">
         {/* Section label */}
         <div className="mb-16 flex items-center gap-4">
-          <span className="font-mono text-xs uppercase tracking-widest text-primary">03</span>
+          <span className="font-mono text-xs uppercase tracking-widest text-primary">
+            03
+          </span>
           <div className="h-px flex-1 bg-border" />
-          <span className="font-mono text-xs uppercase tracking-widest text-muted-foreground">Projects</span>
+          <span className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
+            Projects
+          </span>
         </div>
 
         <h2 className="text-3xl font-bold tracking-tight text-foreground md:text-4xl text-balance">
           Selected work
         </h2>
         <p className="mt-4 max-w-xl text-base text-muted-foreground">
-          A selection of projects that showcase my skills in full-stack development.
+          A selection of projects that showcase my skills in full-stack
+          development.
         </p>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2">
@@ -91,5 +127,5 @@ export function Projects() {
         </div>
       </div>
     </section>
-  )
+  );
 }

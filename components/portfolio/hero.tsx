@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, ArrowDown } from "lucide-react"
+import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
 
 export function Hero() {
   return (
@@ -27,8 +27,9 @@ export function Hero() {
 
         {/* Description */}
         <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground/80 opacity-0 animate-fade-in-up animate-delay-300">
-          Building scalable platforms focused on performance, usability and real business value.
-          Specialized in modern web applications using TypeScript and Next.js.
+          Building scalable platforms focused on performance, usability and real
+          business value. Specialized in modern web applications using
+          TypeScript and Next.js.
         </p>
 
         {/* Social links */}
@@ -67,9 +68,11 @@ export function Hero() {
         className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-muted-foreground/50 transition-colors hover:text-primary opacity-0 animate-fade-in-up animate-delay-500"
         aria-label="Scroll to about section"
       >
-        <span className="font-mono text-[10px] uppercase tracking-widest">Scroll</span>
+        <span className="font-mono text-[10px] uppercase tracking-widest">
+          Scroll
+        </span>
         <ArrowDown className="h-4 w-4 animate-bounce" />
       </a>
     </header>
-  )
+  );
 }

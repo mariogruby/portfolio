@@ -1,22 +1,25 @@
-import { Code2, Palette, Zap } from "lucide-react"
+import { Code2, Palette, Zap } from "lucide-react";
 
 const highlights = [
   {
     icon: Code2,
     title: "Clean Code",
-    description: "Writing maintainable, well-architected code with TypeScript and modern patterns.",
+    description:
+      "Writing maintainable, well-architected code with TypeScript and modern patterns.",
   },
   {
     icon: Palette,
     title: "UX Focused",
-    description: "Designing interfaces that are intuitive, accessible, and delightful to use.",
+    description:
+      "Designing interfaces that are intuitive, accessible, and delightful to use.",
   },
   {
     icon: Zap,
     title: "Performance",
-    description: "Optimizing for speed with SSR, edge computing, and efficient data strategies.",
+    description:
+      "Optimizing for speed with SSR, edge computing, and efficient data strategies.",
   },
-]
+];
 
 export function About() {
   return (
@@ -24,9 +27,13 @@ export function About() {
       <div className="mx-auto max-w-6xl">
         {/* Section label */}
         <div className="mb-16 flex items-center gap-4">
-          <span className="font-mono text-xs uppercase tracking-widest text-primary">01</span>
+          <span className="font-mono text-xs uppercase tracking-widest text-primary">
+            01
+          </span>
           <div className="h-px flex-1 bg-border" />
-          <span className="font-mono text-xs uppercase tracking-widest text-muted-foreground">About</span>
+          <span className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
+            About
+          </span>
         </div>
 
         <div className="grid gap-16 md:grid-cols-2">
@@ -36,13 +43,15 @@ export function About() {
               Crafting digital experiences with purpose
             </h2>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
-              Full Stack developer specialized in modern web applications using TypeScript and Next.js.
-              I build scalable platforms focused on performance, usability and real business value.
-              Passionate about UX, clean architecture and product thinking.
+              Full Stack developer specialized in modern web applications using
+              TypeScript and Next.js. I build scalable platforms focused on
+              performance, usability and real business value. Passionate about
+              UX, clean architecture and product thinking.
             </p>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-              I believe great software is built at the intersection of engineering excellence and user empathy.
-              Every line of code should serve a purpose and every interface should tell a story.
+              I believe great software is built at the intersection of
+              engineering excellence and user empathy. Every line of code should
+              serve a purpose and every interface should tell a story.
             </p>
           </div>
 
@@ -57,8 +66,12 @@ export function About() {
                   <item.icon className="h-5 w-5" />
                 </div>
                 <div>
-                  <h3 className="text-sm font-semibold text-foreground">{item.title}</h3>
-                  <p className="mt-1 text-sm text-muted-foreground">{item.description}</p>
+                  <h3 className="text-sm font-semibold text-foreground">
+                    {item.title}
+                  </h3>
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    {item.description}
+                  </p>
                 </div>
               </div>
             ))}
@@ -66,5 +79,5 @@ export function About() {
         </div>
       </div>
     </section>
-  )
+  );
 }
