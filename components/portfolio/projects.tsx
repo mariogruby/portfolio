@@ -2,6 +2,20 @@ import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
+    title: "Kiki",
+    description:
+      "Simplified project management.",
+    url: "https://kikiboard.xyz/",
+    tags: [
+      "Typescript",
+      "Next.js",
+      "PostgreSQL",
+      "Vercel BLOB",
+      "Prisma",
+      "Tailwind",
+    ],
+  },
+  {
     title: "Rental Cars",
     description:
       "Full booking platform with payments, auth and calendar availability.",
